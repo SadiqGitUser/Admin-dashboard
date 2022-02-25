@@ -1,4 +1,4 @@
-Taskı yüklədikdən sonra view/admin/leftMenu içində @rolu bağlıyıb, rol əlavə edib yenidən açmaq lazım olacaq, çünki databasedə heç kimə rol atılmıyıb deyə atıb sonra permissionu aktiv eləmək lazımdı. @roleni bağladıqdan sonra istifadəçilərin birinə rol verib yenidən açırıq və artıq rol verdiyimiz inzibatçı hər şeyi edə bilir.  Iki cür rol var İnzibatçı və moderrator. İnzibatçı userləri və məhsulları edit edə bilir. Moderrator isə ancaq productun litsini görür. 
+Taskı yüklədikdən sonra view/admin/leftMenu içində @rolu('Inzibatci') bağladıqda left menudakı User list açılır və User listdə istədiyimiz istifadəçiyə inzibatçı veririk, Ondan sonra logout olub @rolu('Inzibatci') açırıq və hazırdı. Iki cür rol var İnzibatçı və moderrator. İnzibatçı userləri və məhsulları edit edə bilir. Moderrator isə ancaq productun litsini görür. 
 
 
 
